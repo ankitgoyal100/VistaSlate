@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory android:title="USER INFORMATION" >
+
+        <EditTextPreference
+            android:key="prefEndAddress"
+            android:summary="Enter a term of the loan"
+            android:title="Term of Loan" />
+
+        <EditTextPreference
+            android:key="prefEndAddress"
+            android:summary="Enter a frequency"
+            android:title="Payment Frequency" />
+
+        <EditTextPreference
+            android:key="prefEndAddress"
+            android:summary="Enter an interest rate"
+            android:title="Interest Rates" />
+
+        <EditTextPreference
+            android:key="prefEndAddress"
+            android:summary="Enter a loan cost"
+            android:title="Total Loan Cost" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

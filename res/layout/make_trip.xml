@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory android:title="USER INFORMATION" >
+
+        <com.goyalgadgets.vistaslate.TextPreference
+            android:key="prefName"
+            android:summary="Enter your name"
+            android:title="Name" />
+
+        <com.goyalgadgets.vistaslate.TextPreference
+            android:key="prefAddress"
+            android:summary="Enter an address"
+            android:title="Ending Address" />
+
+        <com.goyalgadgets.vistaslate.DatePreference
+            android:key="dob"
+            android:summary="Enter your date of birth"
+            android:title="Date of Births" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/start"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#00457e"
+    android:focusable="true"
+	android:focusableInTouchMode="true" >
+    
+    <TextView
+        android:id="@+id/queue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="13 in queue"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="#9c000e"
+       	android:textColor="#ffffff"
+        android:textSize="30sp" />
+    
+	<ImageView
+        android:layout_width="700dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo1" />
+	
+	<TextView
+	    android:id="@+id/slogan"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Making your visit a pleasure is our pleasure"
+        android:layout_marginBottom="130dp"
+	    android:gravity="center"
+	    android:textSize="30sp"
+	    android:textColor="#ffffff" />
+
+	<TextView
+	    android:id="@+id/doyouwant"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="30dp"
+	    android:gravity="center"
+	    android:text="Please enter your phone number..."
+	    android:textColor="#ffffff"
+	    android:textSize="30sp" />
+    
+	<EditText
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Phone number..."
+        android:textColor="#ffffff"
+        android:inputType="number"
+        android:textColorHint="#aaaaaa"
+        android:textSize="35dp" >
+    </EditText>
+	
+	<Button
+	    android:id="@+id/enter"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:padding="20dp"
+	    android:text="Done"
+	    android:background="@drawable/login_button_background"  />
+    
+</LinearLayout>

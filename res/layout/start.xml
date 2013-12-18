@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/start"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#00457e"
+    android:focusable="true"
+	android:focusableInTouchMode="true" >
+    
+    <Spinner
+   	 	android:id="@+id/languages_spinner"
+   		android:layout_width="fill_parent"
+   		android:layout_height="50dp"
+   		android:layout_marginTop="30dp"
+   		android:layout_marginLeft="300dp"
+        android:layout_marginRight="300dp"
+   		android:textSize="30sp"
+   		android:textColor="#ffffff" />
+    
+	<ImageView
+        android:layout_width="700dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo1" />
+	
+	<TextView
+	    android:id="@+id/slogan"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Making your visit a pleasure is our pleasure"
+        android:layout_marginBottom="130dp"
+	    android:gravity="center"
+	    android:textSize="30sp"
+	    android:textColor="#ffffff" />
+	
+	<EditText
+        android:id="@+id/enter_name"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Please enter your name here..."
+        android:textColor="#ffffff"
+        android:textColorHint="#aaaaaa"
+        android:textSize="35dp" >
+    </EditText>
+    
+	<Button
+	    android:id="@+id/button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:padding="20dp"
+	    android:text="Next"
+	    android:background="@drawable/login_button_background"  />
+    
+</LinearLayout>

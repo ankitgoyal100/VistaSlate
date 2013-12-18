@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gray_background"
+    android:orientation="vertical"
+    android:focusable="true"
+	android:focusableInTouchMode="true" >
+    
+    <TextView
+        android:id="@+id/queue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="13 in queue"
+        android:gravity="center"
+        android:background="#9c000e"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+       	android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="700dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Search all services..."
+        android:textSize="35dp" >
+    </EditText>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="320dp"
+        android:gravity="center"
+        android:horizontalSpacing="0dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="17dp" />
+
+</LinearLayout>
